@@ -1,0 +1,6 @@
+framework module Pods_AlamoPromiseObjectMapperTests {
+  umbrella header "Pods-AlamoPromiseObjectMapperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
