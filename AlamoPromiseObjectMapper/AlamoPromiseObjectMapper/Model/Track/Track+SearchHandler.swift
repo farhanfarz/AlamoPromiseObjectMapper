@@ -1,6 +1,6 @@
 //
 //  Track+SearchHandler.swift
-//  SampleAlamoMapper
+//  AlamoPromiseObjectMapper
 //
 //  Created by Farhan Yousuf on 28/10/17.
 //  Copyright © Farhan Yousuf. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  TrackCell.swift
-//  SampleAlamoMapper
+//  AlamoPromiseObjectMapper
 //
 //  Created by Farhan Yousuf on 28-10-17.
 //  Copyright © 2017 Farhan Yousuf. All rights reserved.

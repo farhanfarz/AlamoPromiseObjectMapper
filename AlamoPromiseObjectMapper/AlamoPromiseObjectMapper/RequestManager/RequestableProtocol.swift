@@ -1,6 +1,6 @@
 //
 //  RequestableProtocol.swift
-//  SampleAlamoMapper
+//  AlamoPromiseObjectMapper
 //
 //  Created by Farhan Yousuf on 10/30/17.
 //  Copyright © Farhan Yousuf. All rights reserved.
