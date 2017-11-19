@@ -170,10 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				2AA9770F1FAC72D9004503F4 /* Request+Debug.swift */,
+				2AA977131FAC72D9004503F4 /* RequestManager.swift */,
+				2AA977121FAC72D9004503F4 /* RequestableProtocol.swift */,
 				2AA977101FAC72D9004503F4 /* Requestable+AlamoObjectMapper.swift */,
 				2AA977111FAC72D9004503F4 /* Requestable+PromiseAPI.swift */,
-				2AA977121FAC72D9004503F4 /* RequestableProtocol.swift */,
-				2AA977131FAC72D9004503F4 /* RequestManager.swift */,
 			);
 			path = RequestManager;
 			sourceTree = "<group>";

@@ -29,12 +29,12 @@ extension Requestable {
         return URL(string: "\(`protocol`)://\(baseUrl)\(deployment)") ?? URL(fileURLWithPath: "")
     }
     
-    func call<T: BaseMappable>(with responseObject:@escaping (DataResponse<T>) -> Void) -> DataRequest {
-        return RequestManager.shared.call(self).responseObject(completionHandler: responseObject).validateResponse()
+    func call<T: BaseMappable>(with objectHandler:@escaping (DataResponse<T>) -> Void) -> DataRequest {
+        return RequestManager.shared.call(self).responseObject(completionHandler: objectHandler).validateResponse()
     }
     
-    func call<T: BaseMappable>(with responseArray:@escaping (DataResponse<[T]>) -> Void) -> DataRequest {
-        return RequestManager.shared.call(self).responseArray(completionHandler: responseArray).validateResponse()
+    func call<T: BaseMappable>(with arrayHandler:@escaping (DataResponse<[T]>) -> Void) -> DataRequest {
+        return RequestManager.shared.call(self).responseArray(completionHandler: arrayHandler).validateResponse()
     }
     
     func asURLRequest() throws -> URLRequest {
