@@ -27,6 +27,7 @@
 		2AA977291FAC72D9004503F4 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9771F1FAC72D9004503F4 /* TrackCell.swift */; };
 		30FBBB0B01D378CEF2CD30AD /* Pods_AlamoPromiseObjectMapperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F61EF9A4448FBD331C02175 /* Pods_AlamoPromiseObjectMapperUITests.framework */; };
 		445257A7B71722EC51E48A24 /* Pods_AlamoPromiseObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5334A45089136E1C2DDA2D /* Pods_AlamoPromiseObjectMapper.framework */; };
+		8A1E45EA20B09375009DD1C0 /* Request+PlistMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E45E920B09375009DD1C0 /* Request+PlistMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		2AA9771F1FAC72D9004503F4 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		4D5334A45089136E1C2DDA2D /* Pods_AlamoPromiseObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamoPromiseObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F61EF9A4448FBD331C02175 /* Pods_AlamoPromiseObjectMapperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamoPromiseObjectMapperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1E45E920B09375009DD1C0 /* Request+PlistMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+PlistMapper.swift"; sourceTree = "<group>"; };
 		C1022609A695EF4AD6E1B2EC /* Pods-AlamoPromiseObjectMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoPromiseObjectMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoPromiseObjectMapperTests/Pods-AlamoPromiseObjectMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6622E33057B53B49E63AD4 /* Pods-AlamoPromiseObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoPromiseObjectMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoPromiseObjectMapper/Pods-AlamoPromiseObjectMapper.debug.xcconfig"; sourceTree = "<group>"; };
 		D072C08605E5EA132B151AA4 /* Pods-AlamoPromiseObjectMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoPromiseObjectMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoPromiseObjectMapperTests/Pods-AlamoPromiseObjectMapperTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		2AA9770E1FAC72D9004503F4 /* RequestManager */ = {
 			isa = PBXGroup;
 			children = (
+				8A1E45E920B09375009DD1C0 /* Request+PlistMapper.swift */,
 				2AA9770F1FAC72D9004503F4 /* Request+Debug.swift */,
 				2AA977131FAC72D9004503F4 /* RequestManager.swift */,
 				2AA977121FAC72D9004503F4 /* RequestableProtocol.swift */,
@@ -519,6 +522,7 @@
 				2AA977211FAC72D9004503F4 /* Requestable+AlamoObjectMapper.swift in Sources */,
 				2AA977231FAC72D9004503F4 /* RequestableProtocol.swift in Sources */,
 				2AA977251FAC72D9004503F4 /* TracksViewController.swift in Sources */,
+				8A1E45EA20B09375009DD1C0 /* Request+PlistMapper.swift in Sources */,
 				2AA977241FAC72D9004503F4 /* RequestManager.swift in Sources */,
 				2AA977201FAC72D9004503F4 /* Request+Debug.swift in Sources */,
 				2AA976DE1FAC7243004503F4 /* AppDelegate.swift in Sources */,
